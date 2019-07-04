@@ -1,22 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@silvershadow8 
-0
-0 791 silvershadow8/cicd-pipeline-train-schedule-kubernetes
-forked from linuxacademy/cicd-pipeline-train-schedule-kubernetes
- Code  Pull requests 0  Projects 0  Wiki  Security  Insights  Settings
-cicd-pipeline-train-schedule-kubernetes/train-schedule-kube.yml
-@whboyd whboyd Update train-schedule-kube.yml
-9ed7ae6 10 days ago
-37 lines (34 sloc)  604 Bytes
-    
 kind: Service
 apiVersion: v1
 metadata:
@@ -53,15 +34,3 @@ spec:
         image: $DOCKER_IMAGE_NAME:$BUILD_NUMBER
         ports:
         - containerPort: 8080
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
